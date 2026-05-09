@@ -52,7 +52,7 @@ class User extends Authenticatable
 
     public function cv()
     {
-        return $this->hasOne(User::class);
+        return $this->hasOne(Cv::class);
     }
 
     public function applications()
